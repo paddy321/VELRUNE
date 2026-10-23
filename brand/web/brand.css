@@ -1,0 +1,8 @@
+@font-face {font-family: 'Space Grotesk';src:url('../fonts/SpaceGrotesk-Variable.ttf') format('truetype');font-weight:300 700;font-style:normal;font-display:swap;}
+:root {--velrune-ink:#121212;--velrune-paper:#F3F0E8;--velrune-lime:#D7FF3F;--velrune-font:'Space Grotesk',system-ui,sans-serif;}
+body {margin:0;background:var(--velrune-paper);color:var(--velrune-ink);font-family:var(--velrune-font);line-height:1.5;}
+::selection {background:var(--velrune-lime);color:var(--velrune-ink);}
+a {color:inherit;text-underline-offset:.25em;}
+:focus-visible {outline:3px solid currentColor;outline-offset:5px;}
+.velrune-button {display:inline-flex;align-items:center;gap:2rem;padding:1rem 1.4rem;background:var(--velrune-lime);color:var(--velrune-ink);border:2px solid var(--velrune-ink);font:700 1rem var(--velrune-font);text-decoration:none;}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;}}
